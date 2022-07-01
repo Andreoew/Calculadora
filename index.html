@@ -1,31 +1,47 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="/styles.css">
+  <link rel="stylesheet" href="CSS/styles.css">
+  <script src="./js/scripts.js" defer></script>
   <title>Calculadora</title>
+  <link rel="icon" type="image/x-icon" href="/assets/icons/calculate_white_24dp.svg">
 </head>
 
 <body>
-  
-  <div class="container">
-    <h1>Calculadora</h1>
-    <input id="d1" name="d1" type="number" placeholder="Digite 1º valor" required>
-    <input id="op" name="d1" type="text" placeholder="+ - * /" required>
-    <input id="d2" name="d1" type="number" placeholder="Digite 2º valor" required>
-    <button id="btn" onclick="calcular()">Calcular</button>
-
-    <div id="resultado">Resultado</div>
-
+  <div id="calculator">
+   <div id="icon"><img src="./assets/icons/calculate_white_24dp.svg" alt="">
+    <h3>Calculadora</h3>
   </div>
-
-
-
-
+    <div id="operations">
+      <div id="previous-operation"></div>
+      <div id="current-operation"></div>
+    </div>
+    <div id="buttons-container">
+      <button>CE</button>
+      <button>C</button>
+      <button>DEL</button>
+      <button>/</button>
+      <button class="number">7</button>
+      <button class="number">8</button>
+      <button class="number">9</button>
+      <button>*</button>
+      <button class="number">4</button>
+      <button class="number">5</button>
+      <button class="number">6</button>
+      <button>-</button>
+      <button class="number">1</button>
+      <button class="number">2</button>
+      <button class="number">3</button>
+      <button>+</button>
+      <button class="number">0</button>
+      <button class="number">.</button>
+      <button id="equal-btn">=</button>
+    </div>
+  </div>
 </body>
-<script src="./scripts.js"></script>
 
 </html>
