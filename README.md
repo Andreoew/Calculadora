@@ -8,5 +8,6 @@
 
  - Author: André de Souza
 
- # link:
+ # link:  https://andreoew.github.io/Calculadora/
+ copy and share
     * https://andreoew.github.io/Calculadora/
