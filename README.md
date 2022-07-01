@@ -9,5 +9,5 @@
  - Author: André de Souza
 
  # link:  https://andreoew.github.io/Calculadora/
- copy and share
+       copy and share
     * https://andreoew.github.io/Calculadora/
